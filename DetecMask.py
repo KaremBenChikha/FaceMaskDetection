@@ -1,18 +1,22 @@
 # import the necessary packages
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
-from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.models import load_model
-from imutils.video import VideoStream
+import tensorflow.keras.applications.mobilenet_v2
+import tensorflow.keras.preprocessing.mobilenet_v2
+import tensor.keras.models
+import imutils.video
+#from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+#from tensorflow.keras.preprocessing.image import img_to_array
+#from tensorflow.keras.models import load_model
+#from imutils.video import VideoStream
 import numpy as np
 import imutils
 import time
 import cv2
 import os
-import serial
+#import serial
 import time 
 
 #Setting up your arduino
-arduino = serial.Serial('/dev/ttyUSB0',9600)
+#arduino = serial.Serial('/dev/ttyUSB0',9600)
 
 lowConfidence = 0.75
 
@@ -97,11 +101,11 @@ while True:
 		color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
 		if label =="Mask":
 			print("ACCESS GRANTED")
-			arduino.write(b'H')
+			#arduino.write(b'H')
 
 		else: 
 			print("ACCESS DENIED")
-			arduino.write(b'L')
+			#arduino.write(b'L')
 		# include the probability in the label
 		label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
 
