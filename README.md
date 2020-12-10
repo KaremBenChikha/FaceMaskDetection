@@ -1,6 +1,9 @@
 # FaceMaskDetection
-Neural Network Algorithm to detect people wearing face masks and take actions accordingly 
+
+Neural Network Algorithm to detect people wearing face masks and take actions accordingly.
+
 # Links for the project
+
 Check out the full project on Hackster: https://www.hackster.io/karem_benchikha/facemask-detection-88fa1a
 
 See a demo of the projet on YouTube: https://www.youtube.com/watch?v=F2LtUaeCkBM
@@ -10,6 +13,19 @@ Download Training Images dataset: https://drive.google.com/file/d/1uKAOauSUqH6wt
 Visit my personal Website for more Projects: https://karembenchikha.me
 
 To build such a project, you have to follow 3 main steps:
+
+# Installation
+
+note : this project works better on Ubuntu 20.04 TLS
+
+Step 0
+
+open terminal, navigate to the project folder, and type :
+~~~ 
+pip3 install -r requirements.txt
+~~~
+
+go and grub a cup of coffee as this will take some time.
 
 Step 1
 
