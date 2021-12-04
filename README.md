@@ -10,7 +10,7 @@ See a demo of the projet on YouTube: https://www.youtube.com/watch?v=F2LtUaeCkBM
 
 Download Training Images dataset: https://drive.google.com/file/d/1uKAOauSUqH6wtk_wfpSsjNpju1ralPOI/view?usp=sharing
 
-Visit my personal Website for more Projects: https://karembenchikha.me
+Visit my personal Website for more Projects:
 
 To build such a project, you have to follow 3 main steps:
 
